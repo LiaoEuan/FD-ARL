@@ -55,7 +55,8 @@ The generalization of EEG-based Auditory Attention Decoding (AAD) models across 
 
 ## Code Availability
 
-The source code for this paper is available from the corresponding author upon reasonable request.
+The training logs for all experiments reported in this paper are available in the `/train_logs` directory of this repository. The core source code for reproducing our main results will be made publicly available after the peer review process is complete. We plan to release the full repository, including all model code and experiment scripts, following the paper's official publication.
+
 
 ## Citation
 
