@@ -1,0 +1,242 @@
+========================================================
+作业启动 (Job Start)
+作业名 (Job Name): LOSO_DANN_AAD
+作业ID (Job ID): 3338
+运行节点 (Node List): gpu02
+起始时间 (Start Time): Wed Sep 10 15:47:32 CST 2025
+--------------------------------------------------------
+当前工作目录 (Working Directory): /share/home/yuan/DTU_KUL_LOSO
+--------------------------------------------------------
+正在加载环境模块 (cuda, anaconda3)...
+正在激活 Conda 环境: ly_torch...
+Conda 环境激活成功。当前Python路径: /share/home/yuan/.conda/envs/ly_torch/bin/python
+--------------------------------------------------------
+开始执行Python LOSO脚本 (testdann_keep1.py)...
+这将会是一个漫长的过程，请耐心等待。
+--------------------------------------------------------
+Error importing huggingface_hub.hf_api: No module named 'filelock'
+================================================================================
+任务: LOSO-CV - Disentangled DANN-DBformer on KUL
+主结果路径: ./LOSO_Disentangled_DANN_DBformer_RESULTS_KUL_2025-09-10_15-47-37
+================================================================================
+
+============================== FOLD 1/16 (Test Subject: 1) ==============================
+正在创建DataLoaders...
+训练集: 69360 样本, 测试集: 3136 样本
+--- 开始特征解耦领域对抗训练 (15 个训练领域) ---
+Epoch 010/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 61.26%
+Epoch 020/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 61.99%
+Epoch 030/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 63.68%
+Epoch 040/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 64.35%
+Epoch 050/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 64.32%
+本折训练完成！最佳测试准确率: 0.6712
+
+
+============================== FOLD 2/16 (Test Subject: 2) ==============================
+正在创建DataLoaders...
+训练集: 69360 样本, 测试集: 3136 样本
+--- 开始特征解耦领域对抗训练 (15 个训练领域) ---
+Epoch 010/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 80.23%
+Epoch 020/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 87.66%
+Epoch 030/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 89.76%
+Epoch 040/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 89.83%
+Epoch 050/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 89.83%
+本折训练完成！最佳测试准确率: 0.9031
+
+
+============================== FOLD 3/16 (Test Subject: 3) ==============================
+正在创建DataLoaders...
+训练集: 69360 样本, 测试集: 3136 样本
+--- 开始特征解耦领域对抗训练 (15 个训练领域) ---
+Epoch 010/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 73.88%
+Epoch 020/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 69.74%
+Epoch 030/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 69.32%
+Epoch 040/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 74.43%
+Epoch 050/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 72.32%
+本折训练完成！最佳测试准确率: 0.8731
+
+
+============================== FOLD 4/16 (Test Subject: 4) ==============================
+正在创建DataLoaders...
+训练集: 69360 样本, 测试集: 3136 样本
+--- 开始特征解耦领域对抗训练 (15 个训练领域) ---
+Epoch 010/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 61.80%
+Epoch 020/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 62.24%
+Epoch 030/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 61.16%
+Epoch 040/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 62.28%
+Epoch 050/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 62.63%
+本折训练完成！最佳测试准确率: 0.6384
+
+
+============================== FOLD 5/16 (Test Subject: 5) ==============================
+正在创建DataLoaders...
+训练集: 69360 样本, 测试集: 3136 样本
+--- 开始特征解耦领域对抗训练 (15 个训练领域) ---
+Epoch 010/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 85.68%
+Epoch 020/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 86.48%
+Epoch 030/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 86.13%
+Epoch 040/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 86.51%
+Epoch 050/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 85.27%
+本折训练完成！最佳测试准确率: 0.8791
+
+
+============================== FOLD 6/16 (Test Subject: 6) ==============================
+正在创建DataLoaders...
+训练集: 69360 样本, 测试集: 3136 样本
+--- 开始特征解耦领域对抗训练 (15 个训练领域) ---
+Epoch 010/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 45.50%
+Epoch 020/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 46.01%
+Epoch 030/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 46.91%
+Epoch 040/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 46.40%
+Epoch 050/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 46.62%
+本折训练完成！最佳测试准确率: 0.5038
+
+
+============================== FOLD 7/16 (Test Subject: 7) ==============================
+正在创建DataLoaders...
+训练集: 69360 样本, 测试集: 3136 样本
+--- 开始特征解耦领域对抗训练 (15 个训练领域) ---
+Epoch 010/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 56.25%
+Epoch 020/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 57.43%
+Epoch 030/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 57.08%
+Epoch 040/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 58.07%
+Epoch 050/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 58.35%
+本折训练完成！最佳测试准确率: 0.5925
+
+
+============================== FOLD 8/16 (Test Subject: 8) ==============================
+正在创建DataLoaders...
+训练集: 69360 样本, 测试集: 3136 样本
+--- 开始特征解耦领域对抗训练 (15 个训练领域) ---
+Epoch 010/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 69.23%
+Epoch 020/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 78.06%
+Epoch 030/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 80.33%
+Epoch 040/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 80.20%
+Epoch 050/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 77.26%
+本折训练完成！最佳测试准确率: 0.8071
+
+
+============================== FOLD 9/16 (Test Subject: 9) ==============================
+正在创建DataLoaders...
+训练集: 69360 样本, 测试集: 3136 样本
+--- 开始特征解耦领域对抗训练 (15 个训练领域) ---
+Epoch 010/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 58.16%
+Epoch 020/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 61.13%
+Epoch 030/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 62.34%
+Epoch 040/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 61.19%
+Epoch 050/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 64.35%
+本折训练完成！最佳测试准确率: 0.6435
+
+
+============================== FOLD 10/16 (Test Subject: 10) ==============================
+正在创建DataLoaders...
+训练集: 69360 样本, 测试集: 3136 样本
+--- 开始特征解耦领域对抗训练 (15 个训练领域) ---
+Epoch 010/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 74.23%
+Epoch 020/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 71.97%
+Epoch 030/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 72.96%
+Epoch 040/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 76.88%
+Epoch 050/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 73.60%
+本折训练完成！最佳测试准确率: 0.7688
+
+
+============================== FOLD 11/16 (Test Subject: 11) ==============================
+正在创建DataLoaders...
+训练集: 69360 样本, 测试集: 3136 样本
+--- 开始特征解耦领域对抗训练 (15 个训练领域) ---
+Epoch 010/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 53.44%
+Epoch 020/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 54.34%
+Epoch 030/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 52.39%
+Epoch 040/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 52.61%
+Epoch 050/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 52.52%
+本折训练完成！最佳测试准确率: 0.5829
+
+
+============================== FOLD 12/16 (Test Subject: 12) ==============================
+正在创建DataLoaders...
+训练集: 69360 样本, 测试集: 3136 样本
+--- 开始特征解耦领域对抗训练 (15 个训练领域) ---
+Epoch 010/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 54.02%
+Epoch 020/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 52.26%
+Epoch 030/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 52.01%
+Epoch 040/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 50.73%
+Epoch 050/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 50.73%
+本折训练完成！最佳测试准确率: 0.5593
+
+
+============================== FOLD 13/16 (Test Subject: 13) ==============================
+正在创建DataLoaders...
+训练集: 69360 样本, 测试集: 3136 样本
+--- 开始特征解耦领域对抗训练 (15 个训练领域) ---
+Epoch 010/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 80.77%
+Epoch 020/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 81.63%
+Epoch 030/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 83.86%
+Epoch 040/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 82.56%
+Epoch 050/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 81.98%
+本折训练完成！最佳测试准确率: 0.8651
+
+
+============================== FOLD 14/16 (Test Subject: 14) ==============================
+正在创建DataLoaders...
+训练集: 69360 样本, 测试集: 3136 样本
+--- 开始特征解耦领域对抗训练 (15 个训练领域) ---
+Epoch 010/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 84.92%
+Epoch 020/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 86.99%
+Epoch 030/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 89.13%
+Epoch 040/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 88.97%
+Epoch 050/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 88.65%
+本折训练完成！最佳测试准确率: 0.9027
+
+
+============================== FOLD 15/16 (Test Subject: 15) ==============================
+正在创建DataLoaders...
+训练集: 69360 样本, 测试集: 3136 样本
+--- 开始特征解耦领域对抗训练 (15 个训练领域) ---
+Epoch 010/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 64.92%
+Epoch 020/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 67.00%
+Epoch 030/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 70.70%
+Epoch 040/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 70.22%
+Epoch 050/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 67.73%
+本折训练完成！最佳测试准确率: 0.7478
+
+
+============================== FOLD 16/16 (Test Subject: 16) ==============================
+正在创建DataLoaders...
+训练集: 69360 样本, 测试集: 3136 样本
+--- 开始特征解耦领域对抗训练 (15 个训练领域) ---
+Epoch 010/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 95.98%
+Epoch 020/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 96.17%
+Epoch 030/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 97.51%
+Epoch 040/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 97.19%
+Epoch 050/50 | Train L_Acc: 0.00%, D_Acc: 0.00% | Test Acc: 96.65%
+本折训练完成！最佳测试准确率: 0.9758
+
+
+================================================================================
+所有交叉验证折已完成！正在生成最终总结...
+ fold test_subject  best_accuracy
+    1            1       0.671237
+    2            2       0.903061
+    3            3       0.873087
+    4            4       0.638393
+    5            5       0.879145
+    6            6       0.503827
+    7            7       0.592474
+    8            8       0.807079
+    9            9       0.643495
+   10           10       0.768814
+   11           11       0.582908
+   12           12       0.559311
+   13           13       0.865115
+   14           14       0.902742
+   15           15       0.747768
+   16           16       0.975765
+
+平均准确率: 0.7446 ± 0.1473
+
+❌ 脚本执行过程中发生错误: Object of type device is not JSON serializable
+--------------------------------------------------------
+Python脚本执行完毕，退出码 (Exit Code): 0
+结束时间 (End Time): Wed Sep 10 16:52:54 CST 2025
+作业结束 (Job End)
+========================================================
