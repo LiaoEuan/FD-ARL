@@ -57,16 +57,3 @@ The generalization of EEG-based Auditory Attention Decoding (AAD) models across 
 
 The training logs for all experiments reported in this paper are available in the `/train_logs` directory of this repository. The core source code for reproducing our main results will be made publicly available after the peer review process is complete. We plan to release the full repository, including all model code and experiment scripts, following the paper's official publication.
 
-
-## Citation
-
-If you find our work useful in your research, please consider citing:
-```bibtex
-@inproceedings{liao2026fdarl,
-  title={{FD-ARL: Feature Disentanglement with Adversarial-Reconstruction Learning for Cross-Subject Auditory Attention Decoding}},
-  author={Liao, Yuan and Hu, Haoqi and Li, Haizhou and Cai, Siqi},
-  booktitle={2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
-  year={2026},
-  organization={IEEE}
-}
-```
